@@ -1,5 +1,5 @@
 import { useState } from "react"
-import Bienvenida from "./components/bienvenida"
+import Bienvenida from './components/Bienvenida'
 import { ApiExternaProvider } from "./context/ApiExternaContext"
 import { BuscadorProvider } from "./context/BuscadorContext"
 import { FavoritosProvider } from "./context/ListaFavoritosContext"
