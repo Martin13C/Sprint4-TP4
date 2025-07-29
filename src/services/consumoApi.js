@@ -1,7 +1,8 @@
 import axios from "axios";
 import { toast } from "react-toastify";
 
-const API_BASE = "https://rickandmortyapi.com/api";
+// const API_BASE = "https://rickandmortyapi.com/api";
+const API_BASE = import.meta.env.VITE_API_URL
 
 // Función para obtener personajes por página
 export const getPersonajes = async (page) => {
